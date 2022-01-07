@@ -7,7 +7,8 @@
     "start": "webpack serve",
     "watch": "webpack --watch",
     "build": "cross-env NODE_ENV=production webpack build",
-    "build-dev": "webpack build"
+    "build-dev": "webpack build",
+    "clean": "rm -rf ./dist"
   },
   "repository": {
     "type": "git",
@@ -25,8 +26,10 @@
     "@babel/preset-env": "^7.16.7",
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.4.6",
     "postcss": "^8.4.5",
     "postcss-loader": "^6.2.1",
