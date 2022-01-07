@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const elvenShieldReciep = {
     leatherStrips: 2,
 };
