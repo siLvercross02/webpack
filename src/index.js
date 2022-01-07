@@ -1,7 +1,4 @@
-import "./styles/index.scss";
+import { render } from 'react-dom';
+import App from './components/App';
 
-const elvenShieldReciep = {
-    leatherStrips: 2,
-};
-
-console.log(elvenShieldReciep.leatherStrips);
+render(<App />, document.getElementById('root'));
